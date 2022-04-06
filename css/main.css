@@ -1,0 +1,24 @@
+@font-face {
+    font-family: iranYekan;
+    src: url(../assets/fonts/iranyekanwebregular\(fanum\).ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #eee;
+    color: #333;
+    font-family: iranYekan;
+}
+
+.title{
+    background-color: #ffd000;
+    padding: 1rem;
+}
