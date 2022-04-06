@@ -12,7 +12,7 @@
 body{
     direction: rtl;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
     background-color: #eee;
     color: #333;
     font-family: iranYekan;
@@ -20,5 +20,17 @@ body{
 
 .title{
     background-color: #ffd000;
-    padding: 1rem;
+    padding: .5rem;
+    margin: 0 1rem;
+    border-radius: .5rem;
+    font-size: 1.3rem;
+}
+
+#errors{
+    background-color: #ff2f00;
+    padding: .5rem 3rem;
+    border-radius: 0 0 .5rem .5rem;
+    display: inline-block;
+    color: #eee;
+    font-size: 1rem;
 }
