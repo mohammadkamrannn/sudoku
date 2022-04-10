@@ -16,6 +16,14 @@ body{
     background-color: #eee;
     color: #333;
     font-family: iranYekan;
+    min-width: 576px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title{
@@ -23,7 +31,25 @@ body{
     padding: .5rem;
     margin: 0 1rem;
     border-radius: .5rem;
+    justify-content: space-between;
+}
+
+.title h1{
     font-size: 1.3rem;
+    flex-basis: 33.3%;
+}
+
+.title a{
+    display: inherit;
+    margin-left: .5rem;
+}
+
+.title span{
+    flex-basis: 33.3%;
+}
+
+.title .github{
+    flex-basis: 33.3%;
 }
 
 #errors{
@@ -33,4 +59,81 @@ body{
     display: inline-block;
     color: #eee;
     font-size: 1rem;
+}
+
+.borard-digits{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #999;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits{
+    width: 50px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+.number{
+    width: 45px;
+    height: 45px;
+    margin: .1rem;
+    border: 1px solid #333;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nember-selcted{
+    background-color: #333;
+    color: #eee;
+}
+
+.tile-start{
+    background-color: #ddd ;
+}
+
+.h-line{
+    border-bottom: .15rem solid #333;
+}
+
+.v-line{
+    border-right: .15rem solid #333;
+}
+
+.success{
+    background-color: #00ff6a28;
+}
+
+.danger{
+    background-color: #ff11002a;
+}
+
+.help{
+    text-align: right;
+    width: 567px;
+    margin: 1rem auto;
+    background-color: #00ff6a28;
+    padding: 1rem;
+    border-radius: .5rem;
 }
